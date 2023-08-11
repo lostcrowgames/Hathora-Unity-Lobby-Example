@@ -4,6 +4,8 @@
 
 This repository hosts a Unity project (version 2021.3.28f1) featuring a server browser built using the Hathora Cloud. The project is an example demonstrating how to list lobbies/rooms in a server browser, with support for the URP pipeline. It's designed primarily for FishNet unity, but most of the code can be adapted for Mirror.
 
+![image](https://github.com/lostcrowgames/Hathora-Unity-Lobby-Example/assets/13839271/f39dec41-ea3c-4b6a-92b2-e81e4dbe5a83)
+
 ## Installation
 
 ### From GitHub
