@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022a2291b89c82040a8bd048c0fdd537, type: 3}
+  m_Name: HathoraServerConfig.template
+  m_EditorClassIdentifier: 
+  _hathoraCoreOpts:
+    _appId: 
+    _existingAppsSelectedIndex: 7
+    _existingAppsWithDeploymentWrapper:
+    - _appId: app-81fd8bbd-3425-4129-88b8-12b73bca4a37
+      _createdAtWrapper: 08/11/2023 04:52:39
+      _createdBy: 
+      _deletedBy: 
+      _deletedAtWrapper: 
+      _orgId: auth0|64b6ce5b854faa50a2bb2905
+      _appSecret: secret-e3b407b6-fb40-4789-a45f-ffba2c0995f4
+      _appName: app3
+      _deploymentWrapper:
+        _planName: 1
+        _transportType: 2
+        _roomsPerProcess: 1
+        _additionalContainerPorts: []
+        _defaultContainerPortWrapper:
+          _transportType: 2
+          _portNumber: 7777
+        _createdAtWrapper: 08/11/2023 04:55:04
+        _createdBy: r.cormie@gmail.com
+        _requestedMemoryMB: 1024
+        _requestedCPU: 0.5
+        _deploymentId: 1
+        _buildId: 1
+        _appId: app-81fd8bbd-3425-4129-88b8-12b73bca4a37
+    - _appId: app-e3d7e61d-b777-4a6d-b1c8-5dccc1492943
+      _createdAtWrapper: 08/11/2023 15:54:45
+      _createdBy: 
+      _deletedBy: 
+      _deletedAtWrapper: 
+      _orgId: auth0|64b6ce5b854faa50a2bb2905
+      _appSecret: secret-8967a24a-655a-4052-b77d-b0bdab1e8d6a
+      _appName: app4
+      _deploymentWrapper:
+        _planName: 1
+        _transportType: 2
+        _roomsPerProcess: 1
+        _additionalContainerPorts: []
+        _defaultContainerPortWrapper:
+          _transportType: 2
+          _portNumber: 7777
+        _createdAtWrapper: 08/11/2023 16:00:36
+        _createdBy: r.cormie@gmail.com
+        _requestedMemoryMB: 1024
+        _requestedCPU: 0.5
+        _deploymentId: 1
+        _buildId: 1
+        _appId: app-e3d7e61d-b777-4a6d-b1c8-5dccc1492943
+    - _appId: app-35fb4b7f-a3c6-4c34-9ca3-35b5d8eca3da
+      _createdAtWrapper: 08/05/2023 20:24:06
+      _createdBy: 
+      _deletedBy: 
+      _deletedAtWrapper: 
+      _orgId: auth0|64b6ce5b854faa50a2bb2905
+      _appSecret: secret-de9cc2ea-fcf8-4645-bbe3-71ef54215b04
+      _appName: application01
+      _deploymentWrapper:
+        _planName: 1
+        _transportType: 2
+        _roomsPerProcess: 1
+        _additionalContainerPorts: []
+        _defaultContainerPortWrapper:
+          _transportType: 2
+          _portNumber: 7777
+        _createdAtWrapper: 08/10/2023 20:29:03
+        _createdBy: r.cormie@gmail.com
+        _requestedMemoryMB: 1024
+        _requestedCPU: 0.5
+        _deploymentId: 6
+        _buildId: 6
+        _appId: app-35fb4b7f-a3c6-4c34-9ca3-35b5d8eca3da
+    - _appId: app-b18e6375-2afe-4b7f-8a99-c31768cd7c49
+      _createdAtWrapper: 08/10/2023 20:33:34
+      _createdBy: 
+      _deletedBy: 
+      _deletedAtWrapper: 
+      _orgId: auth0|64b6ce5b854faa50a2bb2905
+      _appSecret: secret-a13681eb-8a03-4dde-a1c8-331c706ce33f
+      _appName: apptest
+      _deploymentWrapper:
+        _planName: 1
+        _transportType: 2
+        _roomsPerProcess: 1
+        _additionalContainerPorts: []
+        _defaultContainerPortWrapper:
+          _transportType: 2
+          _portNumber: 7777
+        _createdAtWrapper: 08/11/2023 19:44:10
+        _createdBy: r.cormie@gmail.com
+        _requestedMemoryMB: 1024
+        _requestedCPU: 0.5
+        _deploymentId: 9
+        _buildId: 11
+        _appId: app-b18e6375-2afe-4b7f-8a99-c31768cd7c49
+    - _appId: app-87a5e1a9-ecbe-48df-a1dd-6424292e0de0
+      _createdAtWrapper: 08/10/2023 16:21:04
+      _createdBy: 
+      _deletedBy: 
+      _deletedAtWrapper: 
+      _orgId: auth0|64b6ce5b854faa50a2bb2905
+      _appSecret: secret-39866f5b-e21f-439b-b557-148f43983eee
+      _appName: appwebgl
+      _deploymentWrapper:
+        _planName: 1
+        _transportType: 2
+        _roomsPerProcess: 1
+        _additionalContainerPorts: []
+        _defaultContainerPortWrapper:
+          _transportType: 2
+          _portNumber: 7777
+        _createdAtWrapper: 08/10/2023 17:14:18
+        _createdBy: r.cormie@gmail.com
+        _requestedMemoryMB: 1024
+        _requestedCPU: 0.5
+        _deploymentId: 5
+        _buildId: 5
+        _appId: app-87a5e1a9-ecbe-48df-a1dd-6424292e0de0
+    - _appId: app-5924d0e1-0739-4bb0-9653-220da22a1b8a
+      _createdAtWrapper: 08/11/2023 20:11:49
+      _createdBy: 
+      _deletedBy: 
+      _deletedAtWrapper: 
+      _orgId: auth0|64b6ce5b854faa50a2bb2905
+      _appSecret: secret-8b685329-06ab-459b-abfe-55c523071bbe
+      _appName: fae-online-dev01
+      _deploymentWrapper:
+        _planName: 1
+        _transportType: 2
+        _roomsPerProcess: 1
+        _additionalContainerPorts: []
+        _defaultContainerPortWrapper:
+          _transportType: 2
+          _portNumber: 7777
+        _createdAtWrapper: 08/11/2023 20:28:15
+        _createdBy: r.cormie@gmail.com
+        _requestedMemoryMB: 1024
+        _requestedCPU: 0.5
+        _deploymentId: 1
+        _buildId: 1
+        _appId: app-5924d0e1-0739-4bb0-9653-220da22a1b8a
+    - _appId: app-aeffb314-0b30-4d76-a422-e61746eaf4b6
+      _createdAtWrapper: 08/10/2023 21:22:33
+      _createdBy: 
+      _deletedBy: 
+      _deletedAtWrapper: 
+      _orgId: auth0|64b6ce5b854faa50a2bb2905
+      _appSecret: secret-ee0ce96c-05f8-40bb-b7f0-22c73d96ff6c
+      _appName: hathora-test-2
+      _deploymentWrapper:
+        _planName: 1
+        _transportType: 2
+        _roomsPerProcess: 1
+        _additionalContainerPorts: []
+        _defaultContainerPortWrapper:
+          _transportType: 2
+          _portNumber: 7777
+        _createdAtWrapper: 08/10/2023 21:25:26
+        _createdBy: r.cormie@gmail.com
+        _requestedMemoryMB: 1024
+        _requestedCPU: 0.5
+        _deploymentId: 1
+        _buildId: 1
+        _appId: app-aeffb314-0b30-4d76-a422-e61746eaf4b6
+    - _appId: app-ec783e6c-ac5c-43a0-a7b7-6c15ef7f4637
+      _createdAtWrapper: 08/11/2023 23:02:57
+      _createdBy: 
+      _deletedBy: 
+      _deletedAtWrapper: 
+      _orgId: auth0|64b6ce5b854faa50a2bb2905
+      _appSecret: secret-7a0e2ef1-3513-4228-bdd9-bb0b0d00892f
+      _appName: lobby-example01
+      _deploymentWrapper:
+        _planName: 1
+        _transportType: 2
+        _roomsPerProcess: 1
+        _additionalContainerPorts: []
+        _defaultContainerPortWrapper:
+          _transportType: 2
+          _portNumber: 7777
+        _createdAtWrapper: 08/11/2023 23:31:40
+        _createdBy: r.cormie@gmail.com
+        _requestedMemoryMB: 1024
+        _requestedCPU: 0.5
+        _deploymentId: 1
+        _buildId: 2
+        _appId: app-ec783e6c-ac5c-43a0-a7b7-6c15ef7f4637
+    _devAuthOpts:
+      _devAuthToken: 
+      _forceNewToken: 0
+  _linuxHathoraAutoBuildOpts:
+    _serverBuildDirName: Build-Server
+    _serverBuildExeName: Hathora-Unity_LinuxServer.x86_64
+    _isDevBuild: 1
+    _cleanBuildDir: 1
+    _overwriteDockerfile: 1
+  _hathoraDeployOpts:
+    _roomsPerProcess: 1
+    _planNameSelectedIndex: 1
+    _containerPortWrapper:
+      _transportType: 2
+      _portNumber: 7777
+    _transportTypeSelectedIndex: 2
+    _envVars: []
+    _advancedDeployOpts:
+      _keepTempDir: 0
+      additionalTransportInfo1:
+        _transportType: 2
+        _portNumber: 7777
+        _transportNickname: 
+      additionalTransportInfo2:
+        _transportType: 2
+        _portNumber: 7777
+        _transportNickname: 
+  _hathoraLobbyRoomOpts:
+    _hathoraRegion: 1
+    _hathoraRegionSelectedIndexUi: 1
